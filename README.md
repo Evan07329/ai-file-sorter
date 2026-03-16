@@ -1,4 +1,4 @@
-**AI File Sorter**
+## AI File Sorter
 
 A Python script that organizes messy folders. Instead of relying on rigid file extensions, this script uses the "Google Gemini 2.0 Flash API" to analyze file names and automatically sort them into logical categories (Images, Documents, Videos, Archives, Code, etc.).
 
@@ -20,7 +20,7 @@ A Python script that organizes messy folders. Instead of relying on rigid file e
 4. Add your API key to the `API_KEY` variable in `ai_sorter.py`.
 5. Run the script: `python3 ai_sorter.py`
 
-**NON-AI**
+## NON-AI
 
 The Offline Version (`sorter.py`)
 

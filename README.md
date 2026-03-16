@@ -19,3 +19,12 @@ A Python script that organizes messy folders. Instead of relying on rigid file e
 3. Get a free API key from Google AI Studio.
 4. Add your API key to the `API_KEY` variable in `ai_sorter.py`.
 5. Run the script: `python3 ai_sorter.py`
+
+**NON-AI**
+
+The Offline Version (`sorter.py`)
+
+Alongside the AI sorter, this repository includes a lightning-fast, offline version. 
+* **How it works:** Instead of asking an AI, it uses a hardcoded Python `Dictionary` to instantly map file extensions (like `.jpg` or `.pdf`) to their correct folders.
+* **Why it's useful:** It requires no internet connection, no API keys, and sorts thousands of files in a fraction of a second.
+* **To run it:** Simply type `python3 sorter.py` in your terminal.

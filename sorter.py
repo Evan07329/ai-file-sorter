@@ -2,7 +2,7 @@ import os
 import shutil
 
 
-folder_to_sort = input("Please enter the path of the folder you want to sort: ").strip()
+folder_to_sort = input("Please enter the path of the folder you want to sort: ").strip(" '\"")
 
 
 extensions_map = {

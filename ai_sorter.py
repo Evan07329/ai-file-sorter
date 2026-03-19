@@ -9,7 +9,7 @@ client = genai.Client(api_key=API_KEY)
 
 
 print("\n--- Welcome to the AI File Sorter ---")
-folder_to_sort = input("Please enter the path of the folder you want to sort: ").strip()
+folder_to_sort = input("Please enter the path of the folder you want to sort: ").strip(" '\"")
 
 all_files = os.listdir(folder_to_sort)
 print("Waking up the AI Sorter...")
